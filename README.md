@@ -1,4 +1,4 @@
-﻿<h1 align = 'center'> Docker Cookbook</h1>
+<h1 align = 'center'> Docker Cookbook</h1>
 <p align = 'center'> Check here recipes to create a container</p>
 
 The main idea of this repo is to organize a step-by-step guide of how to build an application or database using Docker containers. Therefore the users can consult this repo as guide or a cookbook.
@@ -18,6 +18,7 @@ Docker is an open platform for developing, shipping, and running applications. D
 ## Content
 
 - [Node.js and Postgres](https://github.com/rafaelmgr12/docker-cookbook/blob/main/node-postgres/README.md)
-- [Postgres DB](https://github.com/rafaelmgr12/docker-cookbook/blob/main/postgres/README.md)
+- [PostgresSQL DB](https://github.com/rafaelmgr12/docker-cookbook/blob/main/postgres/README.md)
+- [MySQL DB](https://github.com/rafaelmgr12/docker-cookbook/blob/main/mysql/README.md)
 - [Python Machine Learning with Flask](https://github.com/rafaelmgr12/docker-cookbook/blob/main/py-ml-flask/README.md)
 - [Golang and Postgres ](https://github.com/rafaelmgr12/docker-cookbook/blob/main/golang-postgres/README.md)
