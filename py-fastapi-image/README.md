@@ -28,12 +28,9 @@ WORKDIR /app
 # Copy project requirement files
 COPY ./requirements.txt ./
 COPY .env ./
-COPY alembic.ini .
-COPY alembic ./alembic
 
 # Install any needed packages and Python dependencies
-RUN apt-get update && apt-get -y install libpq-dev gcc \
-    && pip install --no-cache-dir --upgrade -r requirements.txt
+RUN pip install --no-cache-dir --upgrade -r requirements.txt
 
 # Copy the rest of the working directory contents into the container
 COPY ./src /app/src
